@@ -1,6 +1,5 @@
-var buttonClass = dokument.getElementByClassName('button');
-var buttonClassLength = buttonClass.length;
-for (var i= 0; i <= buttonClass.length ; i++) {
-	var buttonInnerText = buttonClass[i].innerText;
+var button = document.getElementByClassName('button');
+for (var i = 0; i <= button.length; i ++) {
+	var buttonInnerText = button[i].innerText;
 	alert(buttonInnerText);
 }
